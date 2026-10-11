@@ -8,13 +8,13 @@
 
 ## Project Demonstration
 
-A hands-on demonstration video of the Andhe Ki Chadi smart walking stick and SOS monitoring system is available for this project. The video is pending publication to a shareable video hosting URL.
+Watch the **Andhe Ki Chadi** smart blind stick and SOS monitoring system demonstration on YouTube:
 
-**To publish the demonstration:** upload `AndheKiChadi.mp4` to a GitHub Release (or another accessible video host), then replace the placeholder below with the video's public URL:
+[![Watch the Andhe Ki Chadi Project Demonstration](https://img.youtube.com/vi/MrXUUK8_8no/hqdefault.jpg)](https://youtu.be/MrXUUK8_8no)
 
-[**Watch the Andhe Ki Chadi project demo (video link to be added)**](https://github.com/rishiprattap/Andhe-Ki-Chadi/releases)
+▶️ **[Watch the full project demonstration on YouTube](https://youtu.be/MrXUUK8_8no)**
 
-> Note: This repository currently has no published GitHub Releases. The video is **not yet uploaded** to GitHub; the link above opens the Releases page, not the video itself.
+🌐 **[Open the live SOS monitoring dashboard](https://andhe-ki-chadi.web.app/)**
 
 ### Current Integration Status
 
