@@ -1,0 +1,37 @@
+#ifndef ANDHE_KI_CHADI_CONFIG_H
+#define ANDHE_KI_CHADI_CONFIG_H
+
+// =========================================================================
+// Andhe Ki Chadi (Smart Cane) - Hardware Configuration & Secrets Template
+// Rename this file to "config.h" and insert your network and Firebase credentials.
+// DO NOT commit config.h with real credentials to public repositories!
+// =========================================================================
+
+// 1. Wi-Fi Network Credentials
+#define WIFI_SSID               "YOUR_WIFI_SSID"
+#define WIFI_PASSWORD           "YOUR_WIFI_PASSWORD"
+
+// 2. Firebase Realtime Database Host
+// Example: "your-project-id-default-rtdb.firebaseio.com" (no https:// and no trailing /)
+#define FIREBASE_HOST           "your-project-id-default-rtdb.firebaseio.com"
+
+// 3. Firebase Authentication (Role-Based Security for Device Account)
+// The ESP8266 authenticates using its dedicated Device Account created in Firebase Auth.
+// This ensures production Realtime Database rules enforce that ONLY this device can create
+// alerts for its assigned deviceId and update its own status.
+#define FIREBASE_API_KEY        "AIzaSyYourWebApiKeyHere"
+#define DEVICE_EMAIL            "device001@andhekichadi.local"
+#define DEVICE_PASSWORD         "YourSecureDevicePassword123"
+
+// Optional fallback: If using a pre-generated ID token or database token directly:
+#define FIREBASE_AUTH_TOKEN     ""
+
+// 4. Device Identification & Telemetry
+#define DEVICE_ID               "device001"
+#define FIRMWARE_VERSION        "v1.0.4-esp8266"
+
+// 5. Hardware Thresholds & Timers
+#define OBSTACLE_DISTANCE_CM    50      // Local detection threshold: <= 50 cm triggers D1 buzzer & motor
+#define HEARTBEAT_INTERVAL_MS   30000   // Send status heartbeat to Firebase every 30 seconds
+
+#endif // ANDHE_KI_CHADI_CONFIG_H
