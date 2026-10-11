@@ -4,6 +4,27 @@
 
 ---
 
+> **Live dashboard:** [andhe-ki-chadi.web.app](https://andhe-ki-chadi.web.app) · **Project demonstration:** see [Demo Video](#project-demonstration) below.
+
+## Project Demonstration
+
+A hands-on demonstration video of the Andhe Ki Chadi smart walking stick and SOS monitoring system is available for this project. The video is pending publication to a shareable video hosting URL.
+
+**To publish the demonstration:** upload `AndheKiChadi.mp4` to a GitHub Release (or another accessible video host), then replace the placeholder below with the video's public URL:
+
+[**Watch the Andhe Ki Chadi project demo (video link to be added)**](https://github.com/rishiprattap/Andhe-Ki-Chadi/releases)
+
+> Note: This repository currently has no published GitHub Releases. The video is **not yet uploaded** to GitHub; the link above opens the Releases page, not the video itself.
+
+### Current Integration Status
+
+- React monitoring dashboard is deployed to Firebase Hosting.
+- ESP8266 heartbeat successfully reached Firebase Realtime Database under `/devices/device001/status` (observed HTTP 200 and stored status).
+- End-to-end physical SOS delivery and dashboard online-status synchronization still require final verification before relying on the prototype.
+- This is a prototype assistive device, not a substitute for proven mobility or emergency safeguards.
+
+---
+
 ## 1. System Architecture
 
 ```text
